@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+	  "module": "commonjs",
+	  "declaration": false,
+	  "noImplicitAny": false,
+	  "removeComments": true,
+	  "noLib": false,
+	  "emitDecoratorMetadata": true,
+	  "experimentalDecorators": true,
+	  "target": "es2017",
+	  "sourceMap": true,
+	  "allowJs": true,
+	  "outDir": "./dist",
+	  "alwaysStrict": true,
+	  "strictNullChecks": true,
+	  "types": ["node"],
+	  "resolveJsonModule": true
+	},
+	"include": [
+	  "server.ts"
+	],
+	"exclude": [
+	  "node_modules",
+	  "**/*.spec.ts"
+	],
+	"tslint.autoFixOnSave": true
+}

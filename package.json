@@ -1,0 +1,26 @@
+{
+  "name": "download-handler",
+  "version": "1.0.0",
+  "description": "Dump download handler using queue",
+  "main": "server.js",
+  "scripts": {
+    "build-dev": "tsc -w",
+    "lint": "./node_modules/.bin/tslint -c tslint.json -p tsconfig.json",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^8.0.58",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "tslint": "^5.8.0",
+    "tslint-config-airbnb": "^5.4.2",
+    "typescript": "^2.6.2"
+  }
+}
